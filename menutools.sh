@@ -23,9 +23,8 @@ echo "|    1.update the system                    |"
 echo "|    2.install new packages                 |"
 echo "|    3.open the file manager                |"
 echo "|    4.open the text editor                 |"
-echo "|    4.open the music player                |"
 echo "|    5.open the process manager             |"
-echo "|    6.open the system setting              |"
+echo "|    6.open the music player                |"
 echo "|    7.show me the other programm           |"
 echo "+-------------------------------------------+"
 echo "Write the number"
@@ -57,12 +56,12 @@ read answer1
          read answer2
          $answer2
           ;;
-      5) mocp
-          ;;
-      6) echo "htop or top"
+      5) echo "htop or top?"
          echo -n ": "
          read answer3
          $answer3
+          ;;
+      6) mocp
           ;;
       7) echo "you can find me and my projects in: "
          echo "vk.com/user_init_5"
