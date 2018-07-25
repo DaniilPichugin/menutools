@@ -13,8 +13,8 @@ of a server based on Linux.
 +-----------------------------------------+
 To start, write the following commands:
 
-  $ chmod +x menutools.sh
-  $ ./menutools.sh
+  $ chmod +x menutools_version_beta.sh
+  $ ./menutools_beta_version.sh
 
 +-----------------------------------------+
 
@@ -26,6 +26,28 @@ program can perform.
 
 Write the option number for the specified
 action.
+
++-----------------------------------------+
+
+ -= instructions for using the program Menu Tools Command line. =-
+
++-----------------------------------------+
+
+To start, write the following commands:
+
+	$chmod +x menutools_commamdline_beta.sh
+	$./menutools_commandline_beta.sh
+	
++-----------------------------------------+
+
+After running, type h or help.
+In the specified list you can see the list 
+of commands, there will be their 
+descriptions.
+
++-----------------------------------------+
+
+To exit, simply type e or exit.
 
 +-----------------------------------------+
 
